@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title>About Our Website Istanbul</title>
+    <script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
+
+    <style>
+        html{
+            height: 100%;
+        }
+        body {
+            background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+            
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        nav li {
+            float: left;
+        }
+
+        nav li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: larger;
+        }
+
+        nav li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: rgb(255, 153, 0);
+        }
+
+        .divCenter {
+            margin: 0 auto;
+            background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            height: 95%;
+            margin-top: 100px;
+
+        }
+
+        .mainP {
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .mainP2 {
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+
+        div.divCenter {
+            height: 500px;
+            overflow: hidden;
+            padding: 10px 100px 100px 100px;
+        }
+
+        div.divCenter p {
+            animation: 4s divCenter;
+            margin-top: 0%;
+        }
+
+        div.divCenter h2 {
+            animation: 4s divCenter;
+            margin-top: 0%;
+        }
+        div.divCenter form {
+            animation: 4s divCenter;
+            margin-top: 0%;
+        }
+
+        .mainH2 {
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 150%;
+            text-align: center;
+        }
+
+        label {
+            float: left;
+            width: 11em;
+            text-align: right;
+            color: white;
+            margin-left: 10px;
+        }
+        textarea{
+            display: inline-block;
+        }
+
+
+        span {
+            color: red;
+        }
+
+        input {
+            width: 12em;
+            margin-left: 1em;
+            margin-bottom: .5em;
+        }
+
+        form {
+            border: 3px solid gray;
+            padding: 10px 10px 10px 100px;
+        }
+
+        .labelTA {
+            display: flex;
+            float: left;
+        }
+
+        footer {
+            background-color: rgb(255, 153, 0);
+            width: 100%;
+            margin-top: 0%;
+            text-align: center;
+            
+        }
+        li{
+            color: white;
+        }
+        a{
+            color: white;
+        }
+
+        @keyframes divCenter {
+            from {
+                margin-top: 600%;
+                height: 300%;
+            }
+
+            to {
+                margin-top: 0%;
+                height: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="history.html">History</a></li>
+            <li><a href="food.html">Food</a></li>
+            <li class="active"><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="divCenter">
+            <h2 class="mainH2">Thank You for visiting my website</h2>
+            <p class="mainP">I hope you liked my website and if you could spare few more minutes to fill this survey</p>
+
+            <form id="submit_form" name="sumbit_form" action="join.html" method="get">
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName">
+                <span>*</span><br>
+
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName">
+                <span>*</span><br>
+
+                <label for="emailAddress">Email Address:</label>
+                <input type="text" id="emailAddress" name="emailAddress">
+                <span>*</span><br>
+
+                <label class="labelTA" for="textArea">Comments on how to improve:</label><br>
+                <textarea id="textArea" name="textArea" rows="4" cols="50"></textarea>
+                <br>
+                <label>&nbsp;</label>
+                <input type="button" id="survey_list" value="submit"><br>
+
+                </form>
+
+                <div>
+                    <h2 class="mainH2">References</h2>
+                    <p>
+                        <ol>
+                            <li><a href="https://www.youtube.com/watch?v=-2FKlfUyAQ8&ab_channel=Citiesin4K">https://www.youtube.com/watch?v=-2FKlfUyAQ8&ab_channel=Citiesin4K</a></li>
+                            <li><a href="https://www.thoughtco.com/istanbul-was-once-constantinople-1435547">https://www.thoughtco.com/istanbul-was-once-constantinople-1435547</a></li>
+                            <li><a href="https://www.youtube.com/embed/1zXo1Bk1VZk">https://www.youtube.com/embed/1zXo1Bk1VZk</a></li>
+                            <li><a href="https://64.media.tumblr.com/5ea6fb3131ebba51c9973cc9481b07c7/tumblr_nu2bvr9X5H1tzwdd9o1_1280.jpg">https://64.media.tumblr.com/5ea6fb3131ebba51c9973cc9481b07c7/tumblr_nu2bvr9X5H1tzwdd9o1_1280.jpg</a></li>
+                            <li><a href="https://www.w3schools.com/">https://www.w3schools.com/</a></li>
+                            <li><a href="https://www.w3schools.com/howto/howto_css_fullscreen_video.asp">https://www.w3schools.com/howto/howto_css_fullscreen_video.asp</a></li>
+                            <li><a href="https://stackoverflow.com/">https://stackoverflow.com/</a></li>
+                        </ol>
+                    </p>
+                </div>
+
+
+        </div>
+
+
+    </div>
+ <!--<footer>
+        <p style="padding: 10px;">Copyright &copy; 2021 Ahmet Yetkin</p>
+    </footer>--> 
+    <script> 
+
+        $(document).ready(function () {
+
+            $("#survey_list").click(
+                function () {
+
+                    var firstName = $("#firstName").val();
+                    var lastName = $("#lastName").val();
+                    var emailAddress = $("#emailAddress").val();
+                    var isValid = true;
+
+                    if (firstName === "") {
+                        $("#firstName").next().text("This field is required.");
+                        isValid = false;
+                    } else {
+                        $("#firstName").next().text("");
+                    }
+                    if(lastName===""){
+                        $("#lastName").next().text("This field is required.");
+                        isValid=false;
+                    }else{
+                        $("#lastName").next().text("");
+                    }
+                    if(emailAddress===""){
+                        $("#emailAddress").next().text("This field is required.");
+                        isValid=false;
+                    }else{
+                        $("#emailAddress").next().text("");
+                    }
+
+                }
+            )
+
+
+
+        });
+
+
+    </script>
+
+</body>
+
+</html>

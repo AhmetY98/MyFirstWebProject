@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foods Of Istanbul</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+        }
+      
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        nav li {
+            float: left;
+        }
+
+        nav li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: larger;
+        }
+
+        nav li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: rgb(255, 153, 0);
+        }
+
+        #show1 {
+            padding: 100px 10px 10px 100px;
+            display: inline;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+        }
+
+        .fadeIn {
+            margin: 50px;
+            margin-top: 0px;
+            margin-right: 500px;
+            margin-left: 200px;
+            padding: 50px;
+            opacity: 1;
+            display: flex;
+        }
+
+        h2 {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            color: white;
+            font-size: 200%;
+        }
+        h3{
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            color: white;
+            font-size: 100%;
+        }
+        footer{
+            background-color:rgb(255, 153, 0);
+            width:100%;
+            margin-top: 0%;
+            text-align: center;
+        }
+        @media only screen and (max-width:768px){
+            .fadeIn{
+                display: inline-block;
+            }
+            
+        }
+        @media only screen and (max-width:1440px){
+            .fadeIn{
+                display: inline-block;
+                display: -webkit-box;
+            }
+            #show1{
+                position: fixed;
+            }
+        }
+        @media only screen and (max-width:968px){
+            .fadeIn{
+                display: inline-block;
+            }
+        }
+       
+    </style>
+</head>
+
+<body>
+    <nav>
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="history.html">History</a></li>
+            <li class="active"><a href="food.html">Food</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+
+    </nav>
+    <div>
+        <h2>Famous Foods and Drinks of Istanbul</h2>
+        <h3>Scroll down to see amazing foods of Turkish culture</h3>
+        <div class="main">
+            <div class="fadeIn">
+                <img alt="tea"
+                    src="https://64.media.tumblr.com/5ea6fb3131ebba51c9973cc9481b07c7/tumblr_nu2bvr9X5H1tzwdd9o1_1280.jpg"
+                    height="320px" width="400px">
+                    
+                <p id="show1"><strong><u>Turkish Tea</u></strong> is an important part of Turkish culture, and is the most commonly consumed hot drink,
+                    despite the country's long history of coffee consumption. Offering tea to guests is part of Turkish
+                    hospitality. Tea is most often consumed in households, shops</p>
+            </div>
+            <div class="fadeIn">
+                <img alt="kokorec"src="https://i2.wp.com/samurai-gourmet.com/wp-content/uploads/2020/05/img_5588.jpg?resize=1125%2C742&ssl=1"height="320px" width="400px">
+                <p id="show1"><strong><u>Kokorec</u></strong> is one of the famous street food in Turkey. It has a distinct look that not everyone can enjoy but if when tried 
+                    it will definetly change your mind. It is made out of beef intestines which might sound ugly. However, the way it is cleaned and cooked will definetly
+                    change your mind. Also goes through a sensitive cleaning process to make sure that it is ready to eat.
+
+                </p>
+            </div>
+            <div class="fadeIn">
+                <img alt="kebab" src="https://www.geo.tv/assets/uploads/updates/2019-05-09/236835_9383046_updates.jpg" height="320px" width="400px">
+                <p id="show1"><strong><u>Kebab</u></strong> is one of the famous food that is consumed in the world. It is known by almost every country in the world for its delicious taste.
+                The distinct flavours of kebab is one of the most beatiful thing in the world. </p>
+            </div>
+            <div class="fadeIn">
+                <img alt="iskender" src="http://cdn.cnn.com/cnnnext/dam/assets/200401171826-08-best-turkish-foods-iskender-kebab.jpg" height="320px" width="400px">
+                <p id="show1"><strong><u>Iskender</u></strong> is kind of a kebab that is called doner in turkish. It specailly cut extra thin to make sure that you get the best out of it. It also includes fried pita and yogurt. After the combination of these delicious ingredients you drizzle melted butter on top it to add extra flavours</p>
+
+            </div>
+            <div class="fadeIn">
+                <img alt="dolma" src="http://www.foodpeoplewant.com/wp-content/uploads/2009/09/Turkish-Stuffed-Grape-Leaves-1024x656.jpg" height="320px" width="400px">
+                <p id="show1"><strong><u>Dolma</u></strong> is one of the most famous food in Turkish cuisine. It can be either consumed as an appetizer or as an entire entree. It is a food that comes all the way from the Ottoman Empire.</p>
+            </div>
+          
+        </div>
+
+
+ <!--    <footer>
+            <p style="padding: 10px;">Copyright &copy; 2021 Ahmet Yetkin</p>
+        </footer>-->  
+
+    </div>
+    <script>
+        $(document).ready(function () {
+
+            $(window).on("load", function () {
+                $(window).scroll(function () {
+                    var windowBottom = $(this).scrollTop() + $(this).innerHeight();
+                    $(".fadeIn").each(function () {
+
+                        var objectBottom = $(this).offset().top + $(this).outerHeight();
+
+                        if (objectBottom < windowBottom) { //object comes into view (scrolling down)
+                            if ($(this).css("opacity") == 0) { $(this).fadeTo(500, 1); }
+                        } else { //object goes out of view (scrolling up)
+                            if ($(this).css("opacity") == 1) { $(this).fadeTo(500, 0); }
+                        }
+                    });
+                }).scroll();
+            });
+        });
+
+
+    </script>
+</body>
+
+</html>

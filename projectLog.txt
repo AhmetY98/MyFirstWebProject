@@ -1,0 +1,42 @@
+
+Project Topic: City of Istanbul
+
+Used sources for images,videos and content:
+1) https://www.youtube.com/watch?v=-2FKlfUyAQ8&ab_channel=Citiesin4K
+2) https://www.thoughtco.com/istanbul-was-once-constantinople-1435547
+3) https://www.youtube.com/embed/1zXo1Bk1VZk
+4) https://64.media.tumblr.com/5ea6fb3131ebba51c9973cc9481b07c7/tumblr_nu2bvr9X5H1tzwdd9o1_1280.jpg
+
+
+Used sources for codes:
+1) https://www.w3schools.com/
+2) https://www.w3schools.com/howto/howto_css_fullscreen_video.asp
+3) https://stackoverflow.com/   //GOT SOME HELP ON HOW TO DESIGN
+
+I started doing researches about what kind of images I could use and where can I find a credible history of Istanbul
+
+For navbar I preferred horizontal navbar that chances color when hovered and indicates the active page by a different color
+
+
+Then I started with my index page which is simple web page that has a video background that takes a tour of Istanbul. I added a button that directs you to the second page
+After that, I designed the second page to mention the short history of istanbul that is centrallized and has animation of images.
+
+I also added navigation bar.For navbar I preferred horizontal navbar that chances color when hovered and indicates the active page by a different color For this I checked samples from w3schools to see what kind of navigation bars are available. By getting help from there I created a navbar that is good for me
+
+for the animations I checked our old labs and exercises and animated images.
+
+To set up my page design on mobile devices I added media css style to make sure that my website will fit the mobile devices better.
+
+
+I added footers that we learned at our class exercise to add more design
+
+For the last page I wanted to include a survey and used jquery to check the details that are entered.
+
+Also I included references page to credit the sources that I have used.
+
+
+
+
+
+
+    

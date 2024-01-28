@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title>History of Istanbul</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <style>
+        body {
+            background-image: url("https://wallpaperaccess.com/full/35646.jpg");
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        nav li {
+            float: left;
+
+        }
+
+        nav li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: larger;
+        }
+
+        nav li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: rgb(255, 153, 0);
+        }
+
+        .divCenter {
+            margin: auto;
+            background-color: gray;
+            border:3px solid black;
+            height: 90%;
+            width: 70%;
+        }
+
+        h1 {
+            font-size: 300%;
+            font-family: Arial, Helvetica, sans-serif;
+            display: inline;
+
+        }
+
+        h2 {
+            font-size: 110%;
+
+            margin-top: 20px;
+            float: left;
+            padding-left: 0px;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+        .pContent {
+            font-family: Arial, Helvetica, sans-serif;
+            display: inline-block;
+            margin-left: 10px;
+
+        }
+
+        #main {
+            width: 500%;
+        }
+
+        .content {
+            height: 95%;
+            margin-top: 200px;
+            
+        }
+
+        .divInside {
+            background-color: white;
+            
+        }
+
+        .contentImage {
+            margin-left: 400px;
+            display: inline-block;
+            animation: 3s ease-out 0s 1 slideInFromLeft;
+        }
+        #img1{
+            margin-left: 400px;
+            display: inline-block;
+        }
+        footer{
+            background-color:rgb(255, 153, 0);
+            width:100%;
+            margin-top: 0%;
+            text-align: center;
+            height: 95%;
+        }
+        /*Image will move from left to middle*/
+        @keyframes slideInFromLeft {
+            0% {
+                transform: translateX(-300%);
+            }
+
+            100% {
+                transform: translateX(0);
+            }
+        }
+        @media only screen and (max-device-width:768px){
+            @keyframes slideInFromLeft {
+            0% {
+                transform: translateX(-300%);
+            }
+
+            100% {
+                transform: translateX(0);
+            }
+        }
+        .contentImage {
+            margin-left: 90px;
+            display: inline-block;
+            animation: 3s ease-out 0s 1 slideInFromLeft;
+        }
+        #img1{
+            margin-left: 90px;
+            display: inline-block;
+            
+        }
+        footer{
+            margin-top: 0%;
+        }
+        }
+        @media only screen and(max-device-width:480px){
+            @keyframes slideInFromLeft {
+            0% {
+                transform: translateX(-300%);
+            }
+
+            100% {
+                transform: translateX(0);
+            }
+        }
+        .contentImage {
+            margin-left: 90px;
+            display: inline-block;
+            animation: 3s ease-out 0s 1 slideInFromLeft;
+        }
+        #img1{
+            margin-left: 90px;
+            display: inline-block;
+        }
+        }
+        @media only screen and(max-device-width:1024px){
+            @keyframes slideInFromLeft {
+            0% {
+                transform: translateX(-300%);
+            }
+
+            100% {
+                transform: translateX(0);
+            }
+        }
+        .contentImage {
+            margin-left: 90px;
+            display: inline-block;
+            animation: 3s ease-out 0s 1 slideInFromLeft;
+        }
+        #img1{
+            margin-left: 90px;
+            display: inline-block;
+        }
+        }
+        
+        
+
+    </style>
+</head>
+
+<body onload="startTime();">
+    <nav>
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li class="active"><a href="history.html">History</a></li>
+            <li><a href="food.html">Food</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+
+    </nav>
+    <div class="content">
+
+        <div class="divCenter">
+            <div class="divTitle">
+                <h1>History of Istanbul</h1>
+            </div>
+            <br>
+            <div class="divInside">
+                <h2>Byzantium</h2>
+                <p class="pContent">During 300s Roman Emperor Constantine the Great, started rebuilding the entire city
+                    to make it as remarkable and give monuments to it as those that were present in Rome. In 330s
+                    Constantine declared the the city as its capital of the entire Roman Empire.</p>
+                <img src="https://i.pinimg.com/564x/df/d6/4f/dfd64fd97319dde26a69287de4e6312b.jpg" class="contentImage"
+                    alt="Byzantium Istanbul" width="500px" height="350px">
+                <br>
+                <br>
+                <h2 >The Roman Empire</h2>
+                <p class="pContent">After the death of Theodosius I in 395 the Roman empire divided and this caused Constantinapole to became the capital of Byzantine Empire in the 400s. This is when the city started to became distincly Greek influenced. In 532 the outstanding monument Hagia Sophia was builted.</p>
+                <img id="img1" src="wp1813723.jpg" alt="image Slide Show" width="500px" height="350px">
+                <br>
+                <br>
+                <h2>The Byzantine (Eastern Roman) Empire</h2>
+                <p class="pContent">After being attacked by the Middle Eastern forces the city became weakened. After this signifacant events, Ottomans led by Sultan Mehmed II was captured in 1453 and the city changed drastically. Its name was also changed to Istanbul.</p>
+                <br>
+                <br>
+                <h2>The Byzantine (Eastern Roman) Empire</h2>
+                <p class="pContent">Following the WWI the Ottoman Empire was hurt pretty bad. However, after the Turkish War of Independence Istanbul became a part of Turkish Republic</p>
+                <br>
+                    <br>
+
+                <h2>Now watch this video about the transformation of Istanbul</h2>
+
+                <p class="pContent"><iframe style="margin-left: 280px;" width="720" height="460" src="https://www.youtube.com/embed/1zXo1Bk1VZk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+            </div>
+        </div>
+        
+
+<!--    <footer>
+            <p style="padding: 10px;">Copyright &copy; 2021 Ahmet Yetkin</p>
+        </footer>
+    </div>-->  
+
+
+
+    <script language="javascript" type="text/javascript">
+        var timerid = 0;
+var images = new Array(	"316124.jpg","istanbul-10.jpg","wp1813723.jpg");
+var countimages = 0;
+//Images will change every 5 second
+function startTime()
+{
+	if(timerid)
+	{
+		timerid = 0;
+	}
+	var tDate = new Date();
+	
+	if(countimages == images.length)
+	{
+		countimages = 0;
+	}
+	if(tDate.getSeconds() % 5 == 0)
+	{
+		document.getElementById("img1").src = images[countimages];
+	}
+	countimages++;
+	
+	timerid = setTimeout("startTime()", 1000);
+}
+    </script>
+
+    
+
+</body>
+
+</html>
