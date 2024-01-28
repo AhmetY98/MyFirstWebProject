@@ -13,26 +13,28 @@ Used sources for codes:
 2) https://www.w3schools.com/howto/howto_css_fullscreen_video.asp
 3) https://stackoverflow.com/   //GOT SOME HELP ON HOW TO DESIGN
 
-I started doing researches about what kind of images I could use and where can I find a credible history of Istanbul
+All the files have CSS included in the code as well as the scripts.
 
-For navbar I preferred horizontal navbar that chances color when hovered and indicates the active page by a different color
+I started doing research about what kind of images I could use and where I find a credible history of Istanbul
 
-
-Then I started with my index page which is simple web page that has a video background that takes a tour of Istanbul. I added a button that directs you to the second page
-After that, I designed the second page to mention the short history of istanbul that is centrallized and has animation of images.
-
-I also added navigation bar.For navbar I preferred horizontal navbar that chances color when hovered and indicates the active page by a different color For this I checked samples from w3schools to see what kind of navigation bars are available. By getting help from there I created a navbar that is good for me
-
-for the animations I checked our old labs and exercises and animated images.
-
-To set up my page design on mobile devices I added media css style to make sure that my website will fit the mobile devices better.
+For the navbar, I preferred a horizontal navbar that changes colour when hovered and indicates the active page by a different colour
 
 
-I added footers that we learned at our class exercise to add more design
+Then I started with my index page, which is a simple web page that has a video background that takes a tour of Istanbul. I added a button that directs you to the second page
+After that, I designed the second page to mention the short history of Istanbul, which is centralized and has an animation of images.
 
-For the last page I wanted to include a survey and used jquery to check the details that are entered.
+I also added a navigation bar. For navbar I preferred horizontal navbar that chances color when hovered and indicates the active page by a different color For this I checked samples from w3schools to see what kind of navigation bars are available. By getting help from there, I created a navbar that is good for me
 
-Also I included references page to credit the sources that I have used.
+for the animations, I checked our old labs and exercises and animated images.
+
+To set up my page design on mobile devices, I added media CSS style to make sure that my website would fit the mobile devices better.
+
+
+I added footers that we learned in our class exercise to add more design
+
+For the last page, I wanted to include a survey and used jQuery to check the details that were entered.
+
+Also, I included a references page to credit the sources that I have used.
 
 
 
